@@ -1,0 +1,33 @@
+.main{
+    margin:0%  auto;
+    height: 250px;
+    width: 30%;
+    /* background-color: aqua; */
+}
+.li{
+    list-style-type:circle;
+}
+input{
+    padding: 20px;
+}
+button{
+    padding: 20px;
+}
+.box{
+    gap: 30px;
+    align-items: center;
+    /* justify-content: center; */
+    display:flex ;
+    height: 100px;
+    width: 100%;
+    /* background-color: gray; */
+}
+.box button{
+    height: 40px;
+    width: 100px;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
