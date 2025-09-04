@@ -1,7 +1,6 @@
 function Add() {
     let detail = document.getElementById("detail").value;
     let li = document.createElement("li");
-    let litext=document.createTextNode(li);
     li.innerText = detail;
     let edit = document.createElement("button");
     edit.innerText = "Edit";
@@ -14,13 +13,10 @@ function Add() {
 
 
 
-
-
-
     
     edit.addEventListener('click',function(){
         let EditAgain=prompt("ente the update value");
-        litext.innerText=EditAgain;
+        li.innerText=EditAgain;
     })
 
     Delete.addEventListener('click', function () {
